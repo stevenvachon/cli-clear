@@ -1,0 +1,33 @@
+{
+  "name": "cli-clear",
+  "description": "Cross-platform clear for the CLI with Node.JS",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stevenvachon/cli-clear",
+  "author": {
+    "name": "Steven Vachon",
+    "email": "contact@svachon.com",
+    "url": "http://www.svachon.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevenvachon/cli-clear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevenvachon/cli-clear/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "cli-clear.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "clear",
+    "cli",
+    "cls"
+  ]
+}
