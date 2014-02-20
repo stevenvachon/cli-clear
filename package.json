@@ -1,7 +1,7 @@
 {
   "name": "cli-clear",
-  "description": "Cross-platform clear for the CLI with Node.JS",
-  "version": "0.1.0",
+  "description": "Cross-platform terminal screen clear.",
+  "version": "1.0.0",
   "homepage": "https://github.com/stevenvachon/cli-clear",
   "author": {
     "name": "Steven Vachon",
@@ -21,7 +21,6 @@
       "url": "http://opensource.org/licenses/mit-license.php"
     }
   ],
-  "main": "cli-clear.js",
   "engines": {
     "node": ">= 0.8.0"
   },
