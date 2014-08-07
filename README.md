@@ -18,6 +18,7 @@ clear();
 ```
 
 ## Release History
+* 1.0.1 nearly pointless fix
 * 1.0.0 fixed extra line break issue
 * 0.1.0 initial release
 
