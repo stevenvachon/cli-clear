@@ -1,7 +1,7 @@
 {
   "name": "cli-clear",
   "description": "Cross-platform terminal screen clear.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/stevenvachon/cli-clear",
   "author": {
     "name": "Steven Vachon",
@@ -22,8 +22,11 @@
     }
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.8"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "clear",
     "cli",
