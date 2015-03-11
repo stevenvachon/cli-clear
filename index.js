@@ -1,20 +1,22 @@
-var windows = process.platform.indexOf("win") == 0;
+"use strict";
+var windows = process.platform.indexOf("win") === 0;
 
 
 
 function clear()
 {
+	var i,lines;
 	var stdout = "";
 	
-	if (!windows)
+	if (windows === false)
 	{
 		stdout += "\033[2J";
 	}
 	else
 	{
-		var lines = process.stdout.getWindowSize()[1];
+		lines = process.stdout.getWindowSize()[1];
 		
-		for (var i=0; i<lines; i++)
+		for (i=0; i<lines; i++)
 		{
 			stdout += "\r\n";
 		}
