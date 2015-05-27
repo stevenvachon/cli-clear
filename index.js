@@ -10,7 +10,7 @@ function clear()
 	
 	if (windows === false)
 	{
-		stdout += "\033[2J";
+		stdout += "\x1B[2J";
 	}
 	else
 	{
@@ -23,7 +23,7 @@ function clear()
 	}
 	
 	// Reset cursur
-	stdout += "\033[0f";
+	stdout += "\x1B[0f";
 	
 	process.stdout.write(stdout);
 }
