@@ -18,6 +18,7 @@ clear();
 ```
 
 ## Release History
+* 1.0.4 added Node 0.12+ support
 * 1.0.3 minor performance enhancements
 * 1.0.2 package.json optimization
 * 1.0.1 nearly pointless fix
