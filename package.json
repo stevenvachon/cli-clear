@@ -2,6 +2,7 @@
   "name": "cli-clear",
   "description": "Cross-platform terminal screen clear.",
   "version": "1.0.4",
+  "license": "MIT",
   "homepage": "https://github.com/stevenvachon/cli-clear",
   "author": {
     "name": "Steven Vachon",
@@ -15,21 +16,17 @@
   "bugs": {
     "url": "https://github.com/stevenvachon/cli-clear/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/mit-license.php"
-    }
-  ],
   "engines": {
     "node": ">= 0.8"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "license"
   ],
   "keywords": [
     "clear",
     "cli",
-    "cls"
+    "cls",
+    "terminal"
   ]
 }

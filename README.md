@@ -1,11 +1,11 @@
-# cli-clear [![NPM Version](http://badge.fury.io/js/cli-clear.svg)](http://badge.fury.io/js/cli-clear)
+# cli-clear [![NPM Version](https://img.shields.io/npm/v/cli-clear.svg)](https://npmjs.org/package/cli-clear)
 
 > Cross-platform terminal screen clear for Node.js
 
 ANSI escape codes don't always work in Windows.
 
 ## Getting Started
-[Node.js](http://nodejs.org/) `~0.8.0` is required. To install, type this at the command line:
+[Node.js](http://nodejs.org/) `>= 0.8` is required. To install, type this at the command line:
 ```
 npm install cli-clear --save-dev
 ```
